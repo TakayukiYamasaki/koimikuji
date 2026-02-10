@@ -1,0 +1,50 @@
+body {
+  background-color: #ffe6f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #e91e63;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.result {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* アニメーション用 */
+.animation {
+  margin-top: 20px;
+  font-size: 18px;
+  animation: shake 0.5s infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>結果</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>結果はこちら！</h1>
+
+    <div id="result" class="result"></div>
+
+    <button onclick="location.href='index.html'">
+      もう一度引く
+    </button>
+  </div>
+
+  <script>
+    // URLから結果を取得
+    const params = new URLSearchParams(location.search);
+    const fortune = params.get("fortune");
+
+    document.getElementById("result").textContent = fortune;
+  </script>
+</body>
+</html>
