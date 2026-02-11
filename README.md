@@ -19,7 +19,7 @@ koimikuji/
 ```
 
 
-🟢 STEP 0：HTML入門（★☆☆）
+🟢 STEP 0：HTML&CSS+JavaScript入門（★☆☆）
 
 学習ポイント<br>
 ・HTMLの基本構造<br>
@@ -77,10 +77,10 @@ koimikuji/
 🌐 公開ページ（GitHub Pages）
 
 ※ ユーザー名部分は各自のアカウント名に変更してください。<br>
-・トップ：https://ユーザー名.github.io/koimikuji/<br>
-・step0：https://ユーザー名.github.io/koimikuji/step0/<br>
-・step1：https://ユーザー名.github.io/koimikuji/step1/<br>
-・step2：https://ユーザー名.github.io/koimikuji/step2/<br>
+・トップ：https://takayukiyamasaki.github.io/koimikuji/<br>
+・step0：https://takayukiyamasaki.github.io/koimikuji/step0/<br>
+・step1：https://takayukiyamasaki.github.io/koimikuji/step1/<br>
+・step2：https://takayukiyamasaki.github.io/koimikuji/step2/<br>
 
 
 🏫 授業での使い方（例）<br>
