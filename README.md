@@ -1,26 +1,36 @@
+以下は、修正内容（目次ページ導線・難易度表示・学習段階の明確化）を反映した 更新版 README.md です。
+Markdownでそのまま正しく改行・リスト表示されます。
+
+⸻
+
 恋みくじ Webアプリ（教材用）
 
 このリポジトリは、HTML / CSS / JavaScript の基礎を学ぶための教材です。
 高校生（プログラミング未経験）を対象に、段階的に完成度を高めていく構成になっています。
+
+トップページ（index.html）から各ステップへ移動できる構成です。
 
 ⸻
 
 📁 プロジェクト構成
 
 koimikuji/
-├─ step0/  … HTMLのみ（表示の基本）
-├─ step1/  … JavaScriptで動きを追加
-├─ step2/  … 完成形（画面遷移＋全画面アニメーション）
+├─ index.html  … 教材トップ（目次ページ）
+├─ style.css   … トップ用スタイル
+├─ step0/      … HTMLのみ（表示の基本）
+├─ step1/      … JavaScriptで動きを追加
+├─ step2/      … 完成形（画面遷移＋全画面アニメーション）
 └─ README.md
 
 
 ⸻
 
-🟢 step0：HTML入門
+🟢 step0：HTML入門（★☆☆）
 
 学習ポイント
 	•	HTMLの基本構造
 	•	タグの役割（h1 / button / p）
+	•	ファイルの保存とブラウザ表示
 
 できること
 	•	画面にタイトルとボタンが表示される
@@ -28,24 +38,25 @@ koimikuji/
 
 ⸻
 
-🟡 step1：JavaScript入門
+🟡 step1：JavaScript入門（★★☆）
 
 学習ポイント
 	•	ボタン操作（click）
 	•	ランダム処理
-	•	文字の書き換え
+	•	文字の書き換え（textContent）
 
 できること
 	•	ボタンを押すとおみくじ結果が表示される
 
 ⸻
 
-🔵 step2：完成形（おすすめ）
+🔵 step2：完成形（★★★）
 
 学習ポイント
 	•	画面全体を使った演出
 	•	setTimeout による待ち時間処理
-	•	ページ遷移
+	•	ページ遷移（画面切り替え）
+	•	ファイル構成の理解
 
 できること
 	•	ボタンを押す
@@ -56,6 +67,9 @@ koimikuji/
 ⸻
 
 🌐 公開ページ（GitHub Pages）
+
+※ ユーザー名部分は各自のアカウント名に変更してください。
+	•	トップ：https://ユーザー名.github.io/koimikuji/
 	•	step0：https://ユーザー名.github.io/koimikuji/step0/
 	•	step1：https://ユーザー名.github.io/koimikuji/step1/
 	•	step2：https://ユーザー名.github.io/koimikuji/step2/
@@ -63,9 +77,15 @@ koimikuji/
 ⸻
 
 🏫 授業での使い方（例）
-	•	第1コマ：step0 を目標にHTML/CSS
-	•	第2コマ：step1 を完成させる
-	•	第3コマ：step2 を見本に発展課題
+	•	第1コマ：step0 を目標に HTML の基礎
+	•	第2コマ：step1 を完成させる（JavaScript導入）
+	•	第3コマ：step2 を見本に発展課題へ
+
+発展例
+	•	結果の種類を増やす
+	•	デザインを変更する
+	•	画像や効果音を追加する
+	•	オリジナルテーマのおみくじに改造する
 
 ⸻
 
