@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日のおみくじ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>✨ 今日のおみくじ ✨</h1>
+    <p>運命の1枚を選んでください...</p>
+
+    <div class="card-container" id="card-container">
+        <div class="card" onclick="startDraw()">⛩️</div>
+        <div class="card" onclick="startDraw()">⛩️</div>
+        <div class="card" onclick="startDraw()">⛩️</div>
+        <div class="card" onclick="startDraw()">⛩️</div>
+        <div class="card" onclick="startDraw()">⛩️</div>
+    </div>
+
+    <div id="animation-overlay">
+        <div class="shaking-box">🎋</div>
+        <h2>おみくじを振っています...</h2>
+    </div>
+
+    <div id="result-area">
+        <div class="luck-rank" id="luck-rank"></div>
+        <p id="luck-message"></p>
+        <button class="btn-retry" onclick="resetGame()">もう一度ひく</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
