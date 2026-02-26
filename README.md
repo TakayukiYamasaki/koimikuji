@@ -74,9 +74,7 @@ koimikuji/
 ・実際のサービスに近い構造を体験できる<br>
 
 
-🌐 公開ページ（GitHub Pages）
-
-※ ユーザー名部分は各自のアカウント名に変更してください。<br>
+🌐 公開ページ（GitHub Pages）<br>
 ・トップ：https://takayukiyamasaki.github.io/koimikuji/<br>
 ・step0：https://takayukiyamasaki.github.io/koimikuji/step0/<br>
 ・step1：https://takayukiyamasaki.github.io/koimikuji/step1/<br>
